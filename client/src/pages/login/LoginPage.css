@@ -1,0 +1,212 @@
+.full-body {
+    height: 100%;
+}
+.simple-btn {
+    color: white;
+    border: solid white 1px;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.1);
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.simple-btn:hover {
+    color: #95CC39 !important;
+    background-color: white !important; 
+    border: solid white 1px;
+}
+#sign-in {
+    margin-right: 50%;
+}
+#sign-up {
+    margin-left: 50%;
+}
+.title-description {
+    color: white;
+    /* font-family: 'Pacifico', Helvetica, sans-serif; */
+    font-weight: normal;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 35px; 
+    margin: 0;   
+}
+#enter-modal {
+    font-family: Roboto, sans-serif;
+}
+    .mod-title {
+        color: #95CC39;
+    }
+    .mod-body {
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    .row.form-group {
+        margin-bottom: 0px;
+    }
+    .mod-foot {
+        padding: 10px;
+        padding-right: 20px;
+    }
+
+/* ============================================== */
+/* MEDIA QUERIES */
+/* ============================================== */
+
+/* Largest Devices */
+@media only screen and (min-width : 1200px) {
+    .title-description {
+        color: white;
+        /* font-family: 'Pacifico', Helvetica, sans-serif; */
+        font-weight: normal;
+        font-family: 'Dawning of a New Day', cursive;
+        font-size: 35px; 
+        margin: 0;   
+    }
+    .mod-body {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+  }
+  
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px) {
+    .title-description {
+        color: white;
+        /* font-family: 'Pacifico', Helvetica, sans-serif; */
+        font-weight: normal;
+        font-family: 'Dawning of a New Day', cursive;
+        font-size: 35px; 
+        margin: 0;   
+    }
+    .simple-btn {
+        padding-left: 27px !important;
+        padding-right: 27px !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 65px;
+        border: solid white 1px;
+    }
+    #sign-in {
+        margin-right: 50%;
+    }
+    #sign-up {
+        margin-left: 50%;
+    }
+    .mod-body {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+    .title-description {
+        font-size: 35px;  
+    }
+    .simple-btn {
+        padding-left: 27px !important;
+        padding-right: 27px !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 65px;
+    }
+    #sign-in {
+        margin-right: 50%;
+    }
+    #sign-up {
+        margin-left: 50%;
+    }
+    .mod-body {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    .title-description {
+        font-size: 32px; 
+    }
+    .simple-btn {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 65px;
+    }
+    #sign-in {
+        margin-right: 50%;
+    }
+    #sign-up {
+        margin-left: 50%;
+    }
+    .mod-body {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+  }
+  
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+    .title-description {
+        font-size: 30px; 
+    }
+    .simple-btn {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 75px;
+    }
+    #sign-in {
+        margin-right: 50%;
+    }
+    #sign-up {
+        margin-left: 50%;
+    }
+  }
+  
+  /* Custom, iPhone Retina */ 
+  @media only screen and (max-width : 320px) {
+    .title-description {
+        font-size: 25px;   
+    }
+    .simple-btn {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    #sign-in {
+        margin-right: 50%;
+        margin-bottom: 65px;
+    }
+    #sign-up {
+        margin-left: 50%;
+        margin-bottom: 65px;
+    }
+  }

@@ -1,0 +1,165 @@
+#top-line {
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.1);
+}
+    #options {
+        width: 80%;
+    }
+        .activity {
+            font-family: Roboto, sans-serif;
+            font-weight: normal;
+            font-size: 18px !important;
+            color: #3D3D9D;
+            text-transform: uppercase;
+            margin-left: 25px;
+        }
+        .activity:hover {
+            color: #FF9900;
+            text-decoration: underline !important;
+        }
+    .navbar-brand.icons {
+        margin-left: 10px;
+        margin-right: 10px;
+    }    
+    .home-icon {
+        font-size: 30px !important;
+        color: #61695E;
+        margin-left: 5px;
+    }
+    .home-icon:hover {
+        /* transform: rotate(-10deg); */
+        /* font-size: 33px !important; */
+        color: rgb(126, 134, 123);
+    }
+
+#home-nav {
+    width: 100%;
+    padding-top: 60px;
+    background-color: transparent;
+    /* box-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
+    height: 60px;
+}
+    #home-title {
+        color: #95CC39;
+        text-shadow: 1.5px 1.5px rgb(182, 181, 181);
+        font-weight: 400;
+        font-size: 80px; 
+        /* font-family: 'Pacifico', Helvetica, sans-serif; */
+        font-family: 'Cookie', Helvetica, sans-serif;
+        /* text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); */
+        text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.336); 
+    }
+
+#btn-back {
+    color: transparent;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none !important;
+}
+#user-btn {
+    margin: 0px;
+}
+
+a {
+    color: black;
+}
+
+
+/* ============================================== */
+/* MEDIA QUERIES */
+/* ============================================== */
+
+/* Largest Devices */
+@media only screen and (min-width : 1200px) {
+    #options {
+        margin-left: 80px;
+    }
+    .activity {
+        font-size: 23px !important;
+        margin-left: 75px;
+    }
+    .home-icon {
+        font-size: 35px !important;
+        margin-left: 20px;
+    }
+  }
+  
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px) {
+    #options {
+        margin-left: 70px;
+    }
+    .activity {
+        font-size: 23px !important;
+        margin-left: 75px;
+    }
+    .home-icon {
+        font-size: 35px !important;
+        margin-left: 20px;
+    }
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+    #options {
+        margin-left: 0px;
+    }
+    .activity {
+        font-size: 23px !important;
+        margin-left: 75px;
+    }
+    .home-icon {
+        font-size: 35px !important;
+        margin-left: 20px;
+    }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    #options {
+        margin-left: 0px;
+    }
+    .activity {
+        font-size: 23px !important;
+        margin-left: 55px;
+    }
+    .home-icon {
+        font-size: 35px !important;
+        margin-left: 10px;
+    }
+  }
+  
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+    #options {
+        margin-left: 0px;
+    }
+    .activity {
+        font-size: 18px !important;
+        margin-left: 20px;
+    }
+    .home-icon {
+        font-size: 27px !important;
+        margin-left: 3px;
+        padding-top: 3px;
+    }
+  }
+  
+  /* Custom, iPhone Retina */ 
+  @media only screen and (max-width : 320px) {
+    #options {
+        margin-left: 0px;
+    }
+    .activity {
+        font-size: 16px !important;
+        margin-left: 20px;
+    }
+    .home-icon {
+        font-size: 26px !important;
+        margin-left: 2px;
+    }
+  }

@@ -1,0 +1,46 @@
+{
+  "name": "landingpad-react-crud-server",
+  "version": "1.0.0",
+  "description": "Mern Demo",
+  "main": "server.js",
+  "author": "Your favorite instructor",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^2.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.1.1",
+    "connect-mongo": "^2.0.1",
+    "dateformat": "^3.0.3",
+    "express": "^4.15.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.2.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.1",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react": "^16.3.2",
+    "react-datepicker": "^1.4.1",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2",
+    "react-stripe-elements": "^1.6.0",
+    "react-transition-group": "^2.3.1",
+    "reactstrap": "^5.0.0",
+    "serve-favicon": "^2.5.0"
+  }
+}

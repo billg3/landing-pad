@@ -1,0 +1,142 @@
+/* #card-block {
+    display: inline;
+} */
+.border {
+    border-color: #6c757d!important;
+    background-color: rgb(252, 252, 252);
+    padding: 5px;
+    margin-bottom: 0px;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.1);
+}
+.rent-details {
+    width: 90%;
+    margin: 0 auto;
+}
+.rental-img {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.rental-btns {
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+#edit-btn {
+    margin-right: 0px;
+}
+ 
+/* ============================================== */
+/* MEDIA QUERIES */
+/* ============================================== */
+
+/* Largest Devices */
+@media only screen and (min-width : 1200px) {
+    .border {
+        max-width: 550px;
+        margin-bottom: 30px;
+    }
+    .rental-img {
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .rental-btns {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    #edit-btn {
+        margin-right: 5px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .border {
+        max-width: 550px;
+        margin-bottom: 30px;
+    }
+    .rental-img {
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .rental-btns {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    #edit-btn {
+        margin-right: 5px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .border {
+        max-width: 550px;
+        margin-bottom: 30px;
+    }
+    .rental-img {
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .rental-btns {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    #edit-btn {
+        margin-right: 5px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .border {
+        max-width: 550px;
+        margin-bottom: 15px;
+    }
+    .rental-img {
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .rental-btns {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    #edit-btn {
+        margin-right: 4px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .border {
+        margin-bottom: 0px;
+    }
+    .rental-img {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .rental-btns {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    #edit-btn {
+        margin-right: 0px;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .border {
+        margin-bottom: 0px;
+    }
+    .rental-img {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .rental-btns {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    #edit-btn {
+        margin-right: 0px;
+    }
+}
