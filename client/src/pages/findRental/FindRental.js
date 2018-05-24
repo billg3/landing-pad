@@ -350,7 +350,7 @@ class FindRental extends React.Component {
                     <div className="col-xs-12 justify-content-center" id="search-div">
                         <div className ="text-center" id="spacer">
                             <Container className="py-4 full-height justify-content-center">
-                                <h4>Available Rentals</h4>
+                                <h4 className='avtitle'>Available Rentals</h4>
                                 {this.state.spaces.length === 0 && <Card id="error-card">
                                     <strong>No Data</strong>
                                     Try searching for a different location!

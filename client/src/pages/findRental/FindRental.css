@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+
+.avtitle {
+    color:#3D3D9D !important;
+    font-family: 'Quicksand' !important
+}
+
 #solid-bckg {
     background-color: #CCCCCC;
     margin: 0px;
@@ -7,7 +15,7 @@
     width: 100% !important;
 }
 .grn-hdr {
-    background-color: #95CC39;
+    background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 2px rgba(0,0,0,0.1);
     width: 100%;
 }
