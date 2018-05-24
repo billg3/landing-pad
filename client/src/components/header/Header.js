@@ -40,6 +40,7 @@ class Header extends React.Component {
             <div>
                 <div className="row" id="top-line">
                     <div className="text-center" id="options">
+                        <a className="navbar-brand activity" href="/homepage">Home</a>
                         <a className="navbar-brand activity" href="/findParking">Find</a>
                         <a className="navbar-brand activity" href="/findRental">Rent</a>
                         <a className="navbar-brand activity" href="/newSpot">Add</a>
